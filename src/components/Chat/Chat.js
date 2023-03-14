@@ -16,7 +16,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const handleQueryString = useLocation().search;
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = 'https://chat-app-backend-h3gj.onrender.com';
     //const location = useLocation();
 
     useEffect(() => {
